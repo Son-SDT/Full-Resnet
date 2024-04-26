@@ -1,4 +1,4 @@
-# Resnet34
+# Full version of Resnet model ( 18,34,50,101,152)
 <body> 
 <p> Note: </p>
 <p>- Download dataset at : https://www.kaggle.com/datasets/sonnguyenh/animal/data</p>
