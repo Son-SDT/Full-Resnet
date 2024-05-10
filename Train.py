@@ -26,7 +26,7 @@ test_data = DataLoader(test_set, batch_size=64, shuffle=False)
 net = arch.Resnet50(3, 10)
 #net = arch.Resnet101(3, 10)
 #net = arch.Resnet152(3, 10)
-optimizer = optimizer = torch.optim.Adam(net.parameters(), lr=0.01)
+optimizer = torch.optim.Adam(net.parameters(), lr=0.01)
 criterion = nn.CrossEntropyLoss()
 
 from datetime import datetime
